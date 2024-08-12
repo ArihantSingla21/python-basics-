@@ -1,0 +1,13 @@
+prefix=D:/practicing dsa/practice/Library
+exec_prefix=D:/practicing dsa/practice/Library
+libdir=D:/practicing dsa/practice/Library/lib
+sharedlibdir=D:/practicing dsa/practice/Library/lib
+includedir=D:/practicing dsa/practice/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
